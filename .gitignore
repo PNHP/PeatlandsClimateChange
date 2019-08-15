@@ -37,3 +37,10 @@ vignettes/*.pdf
 
 # images
 *.png
+
+# misc
+*.docx
+
+directories
+/source_data/
+/PeatlandClimateChange/
