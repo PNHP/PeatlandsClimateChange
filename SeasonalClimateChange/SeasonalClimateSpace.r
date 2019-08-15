@@ -179,7 +179,7 @@ for(p in unique(parks$SITE)){
   big_plot <- grid.arrange(arrangeGrob(p1 + theme(legend.position="none"), p2 + theme(legend.position="none"), top=textGrob(p), nrow=1, ncol=2),
                            mylegend, nrow=2,heights=c(10, 1)) 
   
-  ggsave(paste0(outdir, p, "_SeasonalChange.png"),  big_plot, width=2.5, height=1.25, units="in", scale=2)  
+  ggsave(paste0(outdir,"/", p, "_SeasonalChange.png"),  big_plot, width=2.5, height=1.25, units="in", scale=2)  
     dev.off()
 
-    }  
+}  
